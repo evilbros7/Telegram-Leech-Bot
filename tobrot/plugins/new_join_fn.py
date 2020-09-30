@@ -38,7 +38,13 @@ async def welcome_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""**Hi sir !!**\n`This is URL Uploader Bot !!`\n\n**Send** `/help` **to see all the commands.\n**""", disable_web_page_preview=True)
+async def help_message_f(client, message):
+    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
+    #channel_id = str(AUTH_CHANNEL)[4:]
+    #message_id = 99
+    # display the /help
+    
+    await message.reply_text("""join this Channel for Premium Contents -- @premiumcoursesdrive\n\n And also don't forget to Read this : <a href="https://t.me/FreeTorrentDownloader/101478">Pinned Message</a>""", disable_web_page_preview=True)
 
 
 async def help_message_f(client, message):
