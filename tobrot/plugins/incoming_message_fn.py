@@ -97,7 +97,7 @@ async def incoming_message_f(client, message):
             await i_m_sefg.edit_text(err_message)
     else:
         await i_m_sefg.edit_text(
-            "**Sorry Sir.**\n What you have entered? I can't understand properly. \nPlease send `/help` \n\n@AbirHasan2005 Please help him!\n "
+            "**Sorry Sir.**\n What you have entered? I can't understand properly. \nPlease send `/help` \n\nSomeone Please help him!\n "
             f"<b>API Error</b>: {cf_name}"
         )
 #
@@ -152,7 +152,7 @@ async def incoming_gdrive_message_f(client, message):
         )
     else:
         await i_m_sefg.edit_text(
-            "**Sorry Sir.**\n What you have entered? I can't understand properly. \nPlease send `/help` \n\n@AbirHasan2005 Please help him!\n "
+            "**Sorry Sir.**\n What you have entered? I can't understand properly. \nPlease send `/help` \n\n@Someone Please help him!\n "
             f"<b>API Error</b>: {cf_name}"
         )
 
@@ -213,14 +213,14 @@ async def incoming_youtube_dl_f(client, message):
 #playlist
 async def g_yt_playlist(client, message):
     """ /pytdl command """
-    #i_m_sefg = await message.reply_text("Processing...you should wait🤗", quote=True)
+    #i_m_sefg = await message.reply_text("Processing...you should wait🙄", quote=True)
     usr_id = message.from_user.id
     G_DRIVE = False
     if len(message.command) > 1:
         if message.command[1] == "gdrive":
             G_DRIVE = True
     if 'youtube.com/playlist' in message.reply_to_message.text:
-        i_m_sefg = await message.reply_text("Downloading ... Please wait ... It could take a huge time", quote=True)
+        i_m_sefg = await message.reply_text("Downloading ... Please wait😴... It could take a huge time", quote=True)
         await yt_playlist_downg(message.reply_to_message, i_m_sefg, G_DRIVE)
     
     else:
