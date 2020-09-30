@@ -207,7 +207,7 @@ async def incoming_youtube_dl_f(client, message):
             )
     else:
         await i_m_sefg.edit_text(
-            "**Sorry Sir.**\n What you have entered? I can't understand properly. \nPlease send `/help` \n\n@AbirHasan2005 Please help him!\n "
+            "**Sorry Sir.**\n What you have entered? I can't understand properly. \nPlease send `/help` \n\nSomeone Please help him!\n "
             f"<b>API Error</b>: {cf_name}"
         )
 #playlist
