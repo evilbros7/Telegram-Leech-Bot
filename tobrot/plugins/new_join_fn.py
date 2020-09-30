@@ -48,7 +48,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("`/leech`: Reply to direct download link, it will upload to telegram.\n \n`/status`: Check current status of bot.\n \n`/leech archive`: Upload torrent and files to telegram in tar.gz format.\n \n`/gleech archive`: compress file/folder and upload to cloud.\n \n`/leech unzip`: This will unzip the ZIP file and upload to telegram.\n \n`/leech unrar`: This will unrar the RAR file and upload to telegram\n upload to cloud.\n \n`/leech untar`: This will untar the TAR file and upload to telegram.\n \n`/ytdl`: Reply to any YouTube video link to download the video. \n \n`/pytdl`: Download videos from youtube playlist link and will upload to telegram.\n \n`/renewme`: Clear files from server of @FreeTorrentDownloader.\n")
+    await message.reply_text("`/leech`: Reply to direct download link, it will upload to telegram.\n \n`/status`: Check current status of bot.\n \n`/leech archive`: Upload torrent and files to telegram in tar.gz format.\n \n`/leech unzip`: This will unzip the ZIP file and upload to telegram.\n \n`/leech unrar`: This will unrar the RAR file and upload to telegram\n upload to cloud.\n \n`/leech untar`: This will untar the TAR file and upload to telegram.\n \n`/ytdl`: Reply to any YouTube video link to download the video. \n \n`/pytdl`: Download videos from youtube playlist link and will upload to telegram.\n \n")
 
 
 async def rename_message_f(client, message):
